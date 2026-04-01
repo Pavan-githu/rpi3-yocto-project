@@ -4,14 +4,11 @@ sources/meta-openembedded/
 sources/meta-raspberrypi/
 sources/meta-userapp-package/
 
-# Ignore build artifacts
+# Ignore build artifacts, track only conf
 build/tmp/
 build/sstate-cache/
 build/downloads/
 build/cache/
+build/bitbake-cookerdaemon.log
 
-# Track only build configuration
-!build/conf/
-!build/conf/local.conf
-!build/conf/bblayers.conf
-!build/conf/templateconf.cfg
+# build/conf/ is tracked
