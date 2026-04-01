@@ -1,0 +1,17 @@
+# Ignore all source layers (each has its own git repo)
+sources/poky/
+sources/meta-openembedded/
+sources/meta-raspberrypi/
+sources/meta-userapp-package/
+
+# Ignore build artifacts
+build/tmp/
+build/sstate-cache/
+build/downloads/
+build/cache/
+
+# Track only build configuration
+!build/conf/
+!build/conf/local.conf
+!build/conf/bblayers.conf
+!build/conf/templateconf.cfg
