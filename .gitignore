@@ -1,8 +1,5 @@
 # Ignore all source layers (each has its own git repo)
-sources/poky/
-sources/meta-openembedded/
-sources/meta-raspberrypi/
-sources/meta-userapp-package/
+sources/
 
 # Ignore build artifacts, track only conf
 build/tmp/
